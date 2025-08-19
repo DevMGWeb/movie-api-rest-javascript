@@ -1,0 +1,170 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 15px 30px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+.search-box {
+  display: flex;
+  background: #222;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  padding: 8px;
+  background: #222;
+  color: #fff;
+}
+
+.search-box button {
+  background: #e50914;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to right, #000, #111);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.hero-buttons .btn-primary {
+  background: #e50914;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hero-buttons .btn-secondary {
+  background: #444;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+/* Movies list */
+.movies-section {
+  padding: 30px;
+}
+
+.movies-section h2 {
+  margin-bottom: 15px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.movie-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 150px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+
+.movie-card p {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Categories */
+.categories {
+  padding: 30px;
+}
+
+.categories h2 {
+  margin-bottom: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tags span:hover {
+  background: #e50914;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  margin-top: 30px;
+  color: #777;
+}
